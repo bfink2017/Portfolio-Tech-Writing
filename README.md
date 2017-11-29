@@ -42,6 +42,12 @@ Next, the last names are sorted using bubblesort. After that is completed, the f
 				temp = currentFirstName;
 				currentFirstName = nextFirstName;
 				nextFirstName = temp;
+
+				temp = currentFirstName;
+				currentFirstName = nextFirstName;
+				nextFirstName = temp;
+				flag = true;
+	}
 ```
 
 Lastly, the sorted names are output into various text files based on the first letter of the last name using a FileWriter.
