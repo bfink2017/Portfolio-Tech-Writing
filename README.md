@@ -21,17 +21,15 @@ This program was created for a class project. The purpose of the project was to 
 
 ### How It Works
 
-First, a file containing names to be sorted is read into the program. 
+First, a file containing names to be sorted is read into the program. The program then uses a Scanner to gather the names from the file and place them into an ArrayList.
 
 ```java
 	ArrayList<String> names = new ArrayList();
 	Scanner input = new Scanner (new File ("Names.txt"));
 ```
-The program then uses a Scanner to gather the names from the file and place them into an ArrayList.
 
+Next, the last names are sorted using bubblesort. After that is completed, the first names are also sorted using bubble sort.
 
-
-Next, the last names are sorted using bubblesort.
 ```java
 	int x = names.get(i).compareTo(names.get(i+2));
 
@@ -45,11 +43,9 @@ Next, the last names are sorted using bubblesort.
 				currentFirstName = nextFirstName;
 				nextFirstName = temp;
 ```
-After that is completed, the first names are also sorted using bubble sort.
-
-
 
 Lastly, the sorted names are output into various text files based on the first letter of the last name using a FileWriter.
+
 ```java
 		//Creates separate text files of sorted names by alphabetical order
 		File file = new File("SortedNames" + c+".txt"); 
