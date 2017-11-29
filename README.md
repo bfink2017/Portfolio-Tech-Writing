@@ -13,7 +13,6 @@ Sarah Qureshi
 The only requirements to run this program are:
 
 	A computer that can run .java files
-
 	A list of names to be sorted
 
 ### Motivation
@@ -59,13 +58,9 @@ Lastly, the sorted names are output into various text files based on the first l
 A list of current and possible future features includes:
 
 	- [x] Name sorting
-
 	- [x] Unsorted names input from file
-
 	- [x] Sorted names output to files
-
 	- [ ] Error checking
-
 	- [ ] GUI
 
 ### Versions
