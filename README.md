@@ -5,6 +5,7 @@ This program was created collaboratively by myself and a fellow JSU student. The
 ### Authors
 
 Brendan Fink
+
 Sarah Qureshi
 
 ### Prerequisites
