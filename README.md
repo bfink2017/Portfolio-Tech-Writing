@@ -29,6 +29,7 @@ First, a file containing names to be sorted is read into the program.
 ```
 The program then uses a Scanner to gather the names from the file and place them into an ArrayList.
 
+
 Next, the last names are sorted using bubblesort.
 ```java
 	int x = names.get(i).compareTo(names.get(i+2));
@@ -44,6 +45,7 @@ Next, the last names are sorted using bubblesort.
 				nextFirstName = temp;
 ```
 After that is completed, the first names are also sorted using bubble sort.
+
 
 Lastly, the sorted names are output into various text files based on the first letter of the last name using a FileWriter.
 ```java
