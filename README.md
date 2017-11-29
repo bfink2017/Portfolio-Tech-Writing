@@ -44,6 +44,7 @@ Next, the last names are sorted using bubblesort. After that is completed, the f
 				currentFirstName = nextFirstName;
 				nextFirstName = temp;
 				flag = true;
+
 				//...
 	}
 ```
@@ -69,4 +70,4 @@ A list of current and possible future features includes:
 
 ### Versions
 
-Currently there is only one version - The version that was submitted to the professor.
+Currently there is only one version - ProjectChanges.java
