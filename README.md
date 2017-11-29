@@ -34,19 +34,17 @@ Next, the last names are sorted using bubblesort. After that is completed, the f
 	int x = names.get(i).compareTo(names.get(i+2));
 
 	if (x > 0) { //compares currentLastName and nextLastName
-				
+				//Swapping the positions of last names
 				String temp = currentLastName;
 				currentLastName = nextLastName; 
 				nextLastName = temp;
 				
-				temp = currentFirstName;
-				currentFirstName = nextFirstName;
-				nextFirstName = temp;
-
+				//Swapping the positions of first names
 				temp = currentFirstName;
 				currentFirstName = nextFirstName;
 				nextFirstName = temp;
 				flag = true;
+				//...
 	}
 ```
 
