@@ -11,7 +11,9 @@ Sarah Qureshi
 ### Prerequisites
 
 The only requirements to run this program are:
+
 	A computer that can run .java files
+
 	A list of names to be sorted
 
 ### Motivation
@@ -45,16 +47,27 @@ Next, the last names are sorted using bubblesort.
 After that is completed, the first names are also sorted using bubble sort.
 
 Lastly, the sorted names are output into various text files based on the first letter of the last name using a FileWriter.
+```java
+		//Creates separate text files of sorted names by alphabetical order
+		File file = new File("SortedNames" + c+".txt"); 
+		file.createNewFile();
+		FileWriter writer = new FileWriter(file); //sets a path to the new sorted file
+```
 
 ### Features
 
 A list of current and possible future features includes:
+
 	- [x] Name sorting
+
 	- [x] Unsorted names input from file
+
 	- [x] Sorted names output to files
+
 	- [ ] Error checking
+
 	- [ ] GUI
 
 ### Versions
 
-Currently there is only one version - This is the version that was submitted to the professor.
+Currently there is only one version - The version that was submitted to the professor.
