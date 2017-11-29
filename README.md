@@ -5,6 +5,7 @@ This program was created collaboratively by myself and a fellow JSU student. The
 ### Authors
 
 Brendan Fink
+
 Sarah Qureshi
 
 ### Prerequisites
@@ -31,8 +32,8 @@ Next, the last names are sorted using bubblesort.
 ```java
 	int x = names.get(i).compareTo(names.get(i+2));
 
-	if (x > 0) { //compares currentLastName and nextLastName: if nextLastName is first alphabetically, swap the two and their first names.
-				//sorting
+	if (x > 0) { //compares currentLastName and nextLastName
+				
 				String temp = currentLastName;
 				currentLastName = nextLastName; 
 				nextLastName = temp;
